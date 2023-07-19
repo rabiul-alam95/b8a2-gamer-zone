@@ -181,6 +181,29 @@ a:hover{
           margin-left: 0px;
 }
 
-.our{
-         
+/* setion point three related style */
+.funny{
+          display: flex;
+          justify-content: center;
+}
+.right{
+          margin-right: 10px;
+          color: #0B0223;
+          text-align: right;
+          font-size: 48px;
+          font-weight: 700;
+}
+.left{
+          background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+          background-clip: text;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          font-size: 48px;
+          font-weight: 700;
+}
+.collection{
+          text-align: center;
+          margin-top: 10px;
+          height: 50px;
+          padding-top: 0px;
 }
