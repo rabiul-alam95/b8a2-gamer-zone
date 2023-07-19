@@ -62,7 +62,8 @@ a:hover{
           margin-left: 5px;
 }
 
-/* main related styles */
+/* main  related styles */
+/* section point one releted style */
 
 .point-one{
           display: flex;
@@ -141,4 +142,45 @@ a:hover{
 .pic-one{
           width: 500px;
           height: 380px;
+}
+
+/* setion point two related style */
+.point-two{
+          display: flex;
+          background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+          width: 1685px;
+          height: 390px;
+          flex-shrink: 0;
+          margin-top: 0px;
+          padding-left: 200px;
+          padding-top: 90px;
+}
+.first{
+          margin-top: 0px;
+          margin-left: 80px;
+          padding-top: 0px;
+}
+.second{
+          text-align: right;
+          margin-left: 300px;
+          margin-top: 70px;
+}
+.line{
+          width: 520px;  
+}
+.we{
+          text-align: right;
+          /* display: flex; */
+          /* font-size: 20px; */
+          font-weight: bold;
+          background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+          background-clip: text;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          margin-top: 0px;
+          margin-left: 0px;
+}
+
+.our{
+         
 }
