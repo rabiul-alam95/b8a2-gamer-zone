@@ -1,0 +1,35 @@
+/* shared styles */
+body {
+          font-family: 'Lato', sans-serif;
+          font-family: 'Open Sans', sans-serif;
+          font-family: 'Work Sans', sans-serif;
+}
+
+header{
+          background: rgb(217, 239, 248);
+          padding: 35px 240px;
+}
+
+nav{
+          display: flex;
+          justify-content: space-between;
+}
+
+ul{
+          display: flex;
+}
+
+nav li{
+         list-style: none;
+         margin-right: 30px;
+         margin-top: 10px;
+}
+nav a{
+          text-decoration: none;
+}
+.game-text{
+          color: rgb(240, 11, 240);
+}
+.logo{
+          width: 40px;
+}
