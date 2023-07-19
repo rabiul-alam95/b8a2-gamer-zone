@@ -93,6 +93,10 @@ a:hover{
           font-family: serif;
           margin-bottom: 0px;
 }
+.hov:hover{
+          color: rgb(14, 10, 10);
+          background-color: rgb(204, 230, 240);
+}
 
 .sign-btn{
           padding: 10px;
