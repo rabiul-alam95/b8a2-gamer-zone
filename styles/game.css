@@ -35,7 +35,7 @@ nav a{
 
 a:hover{
           color: white;
-          background-color: rgb(235, 16, 81);
+          background-color: #F948B2;
 }
 
 .game-text{
@@ -97,6 +97,11 @@ a:hover{
           color: rgb(14, 10, 10);
           background-color: rgb(204, 230, 240);
 }
+.nav-btn:hover{
+          color: rgb(85, 34, 173);
+          background-color: #c0f3d7;
+
+}
 
 .sign-btn{
           padding: 10px;
@@ -106,6 +111,9 @@ a:hover{
           border-color: white;
           font-size: small;
 }
+.sign-btn:hover{
+          background-color: rgb(196, 33, 141)
+}
 
 .go-btn{
           padding: 10px;
@@ -114,6 +122,9 @@ a:hover{
           color: white;
           border-color: white;
           font-size: small;
+}
+.go-btn:hover{
+          background-color: #1a82af;
 }
 .one{
           margin-left: 100px;
