@@ -5,6 +5,8 @@ body {
           font-family: 'Work Sans', sans-serif;
 }
 
+/* nav releted style */
+
 header{
           background: rgb(217, 239, 248);
           padding: 35px 240px;
@@ -22,7 +24,7 @@ ul{
 
 nav li{
          list-style: none;
-         margin-right: 20px;
+         margin-right: 15px;
          margin-top: 10px;
 }
 nav a{
@@ -37,17 +39,18 @@ a:hover{
 }
 
 .game-text{
-          color: rgb(235, 16, 81);
+          color: #F948B2;
 }
 .logo{
           width: 40px;
+          margin-right: 5px;
 }
 .nav-title{
           font-style:italic;
           font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .nav-btn{
-          border: 1px;
+          border: 10px;
           outline: none;
           padding: 14px;
           border-radius: 10px;
@@ -57,4 +60,70 @@ a:hover{
 .fa-brands{
           margin-right: 5px;
           margin-left: 5px;
+}
+
+/* main related styles */
+
+.point-one{
+          display: flex;
+          background-image: url(../images/Background\ 1.png);
+          width: 701px;
+          height: 390px;
+          flex-shrink: 0;
+          margin-top: 0px;
+          padding-left: 200px;
+          padding-top: 90px;
+
+
+}
+
+.goat{
+          font-size: 50px;
+          text-transform: uppercase;
+          font-weight: bold;
+          background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+          background-clip: text;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          margin-top: 0px;
+          margin-left: 0px;
+}
+.play{
+          font-style: italic;
+          font-family: serif;
+          margin-bottom: 0px;
+}
+
+.sign-btn{
+          padding: 10px;
+          border-radius: 50px;
+          background-color: #F948B2;
+          color: white;
+          border-color: white;
+          font-size: small;
+}
+
+.go-btn{
+          padding: 10px;
+          border-radius: 50px;
+          background-color: #4EC5F7;
+          color: white;
+          border-color: white;
+          font-size: small;
+}
+.one{
+          margin-left: 100px;
+}
+
+.two{
+          margin-top: 0px;
+          margin-left: 600px;
+          padding-top: 0px;
+          /* width: 300px; */
+          /* height: 10px; */
+}
+
+.pic-one{
+          width: 500px;
+          height: 380px;
 }
