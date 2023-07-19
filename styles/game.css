@@ -22,7 +22,7 @@ ul{
 
 nav li{
          list-style: none;
-         margin-right: 30px;
+         margin-right: 20px;
          margin-top: 10px;
 }
 nav a{
@@ -49,11 +49,12 @@ a:hover{
 .nav-btn{
           border: 1px;
           outline: none;
-          padding: 10px;
+          padding: 14px;
           border-radius: 10px;
           background-color: white;
-          color: rgb(19, 3, 3);
+          color: black;
 }
 .fa-brands{
-          margin-right: 30px;
+          margin-right: 5px;
+          margin-left: 5px;
 }
