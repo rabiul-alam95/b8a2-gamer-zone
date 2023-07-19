@@ -15,6 +15,7 @@ nav{
           justify-content: space-between;
 }
 
+
 ul{
           display: flex;
 }
@@ -26,10 +27,33 @@ nav li{
 }
 nav a{
           text-decoration: none;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          font-size: larger;
 }
+
+a:hover{
+          color: white;
+          background-color: rgb(235, 16, 81);
+}
+
 .game-text{
-          color: rgb(240, 11, 240);
+          color: rgb(235, 16, 81);
 }
 .logo{
           width: 40px;
+}
+.nav-title{
+          font-style:italic;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.nav-btn{
+          border: 1px;
+          outline: none;
+          padding: 10px;
+          border-radius: 10px;
+          background-color: white;
+          color: rgb(19, 3, 3);
+}
+.fa-brands{
+          margin-right: 30px;
 }
