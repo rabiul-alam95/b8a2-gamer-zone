@@ -449,3 +449,22 @@ footer{
           margin-top: 50px;
           font-size: small;
 }
+
+
+/* responsive media queries */
+/* mobile devices */
+@media screen and (max-width: 576px) {
+          header {
+              padding: 40px;
+          }
+      
+          nav, .point-one, .pic-one {
+              flex-direction: column;
+              padding: 1px;
+          }
+          .point-one, .point-two, .point-three,
+          .point-four, .point-five, .point-six, .lst{
+                    grid-template-columns: 1fr;
+          }
+      
+}
