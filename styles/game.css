@@ -430,5 +430,16 @@ footer{
 }
 .icon{
           margin-left: 780px;
-          margin-top: 25px;
+          margin-top: 35px;
+}
+
+.sesh-btn{
+          margin-left: 650px;
+          margin-top: 35px;
+}
+.sesh{
+          border: none;
+          background-color: #0B0223;
+          color: white;
+          margin-right: 20px;
 }
