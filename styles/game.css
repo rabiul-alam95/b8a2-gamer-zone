@@ -62,7 +62,7 @@ a:hover{
           margin-left: 5px;
 }
 
-/* main  related styles */
+/* main */
 /* section point one releted style */
 
 .point-one{
@@ -135,8 +135,6 @@ a:hover{
           margin-top: 0px;
           margin-left: 600px;
           padding-top: 0px;
-          /* width: 300px; */
-          /* height: 10px; */
 }
 
 .pic-one{
@@ -170,8 +168,6 @@ a:hover{
 }
 .we{
           text-align: right;
-          /* display: flex; */
-          /* font-size: 20px; */
           font-weight: bold;
           background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
           background-clip: text;
@@ -206,7 +202,6 @@ a:hover{
 .collection{
           text-align: center;
           margin-top: 1px;
-          /* height: 50px; */
           padding-top: 0px;
           font-size: large;
 }
@@ -262,11 +257,10 @@ a:hover{
 /* play button style */
 .image-container {
           position: relative;
-          display: inline-block; /* or "block" if you want it on a separate line */
+          display: inline-block;
           margin-left: 615px;
           margin-top: 10px;
-          
-      }
+          }
       
 .play-button {
           border: 10px; 
@@ -280,12 +274,11 @@ a:hover{
           left: 50%;
           width: 50px;
           transform: translate(-50%, -50%);
-          width: 60px; /* Adjust size as needed */
+          width: 60px;
           height: 60px;
-          background-image: url('../images/circle-play-regular\ \(1\).svg'); /* Replace with the path to your play button icon */
+          background-image: url('../images/circle-play-regular\ \(1\).svg'); 
           background-size: cover;
           cursor: pointer;
-          /* Add any additional styles you want for the play button */
 }
 
 /* section point four releted */
@@ -316,7 +309,7 @@ a:hover{
 
 .img-container {
           position: relative;
-          display: inline-block; /* or "block" if you want it on a separate line */
+          display: inline-block;
 }
   
 .back{
@@ -330,9 +323,8 @@ a:hover{
           height: 250px;
           width: 200px;
           position: absolute;
-          top: 280px; /* Adjust the vertical position */
-          left: 780px; /* Adjust the horizontal position */
-          /* Add any additional styles you want for the overlay image */
+          top: 280px;
+          left: 780px;
 }
 
 .five-text{
@@ -454,17 +446,48 @@ footer{
 /* responsive media queries */
 /* mobile devices */
 @media screen and (max-width: 576px) {
+
           header {
               padding: 40px;
           }
       
-          nav, .point-one, .pic-one {
+          nav{
               flex-direction: column;
               padding: 1px;
           }
-          .point-one, .point-two, .point-three,
-          .point-four, .point-five, .point-six, .lst{
-                    grid-template-columns: 1fr;
+          .point-one{
+                    flex-direction: column;
+                    padding: 10px;
           }
-      
+          .pic-one{
+                    padding: 1px;
+
+          }
+          .im-1{
+                    margin-left: 10px;
+          }
+          .first{
+                    margin-left: 10px;
+          }
+          .pic{
+                    margin-left: 1px;
+          }
+          .image-container{
+                    margin-left: 1px;
+          }
+          .back{
+                    margin-left: 1px;
+          }
+          .career{
+                    margin-left: 1px;
+          }
+          .lst{
+                    padding-left: 1px;
+          }
+          .foot-title{
+                    margin-left: 1px;
+          }
+          .nine-btn{
+                    margin-top: 1px;
+          }
 }
