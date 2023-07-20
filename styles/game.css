@@ -182,6 +182,7 @@ a:hover{
 }
 
 /* setion point three related style */
+
 .funny{
           display: flex;
           justify-content: center;
@@ -192,6 +193,7 @@ a:hover{
           text-align: right;
           font-size: 48px;
           font-weight: 700;
+          padding-bottom: 10px;
 }
 .left{
           background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -203,7 +205,139 @@ a:hover{
 }
 .collection{
           text-align: center;
-          margin-top: 10px;
-          height: 50px;
+          margin-top: 1px;
+          /* height: 50px; */
           padding-top: 0px;
+          font-size: large;
 }
+.im-1{
+          display: flex;
+          margin-left: 417px;
+          height: 250px;
+}
+.skill-pic{
+          margin-left: 50px;
+          width: 200px;
+          height: 250px;
+}
+.pic-para{
+          display: flex;
+          margin-left: 417px;
+}
+.para{
+          margin-left: 25px;
+}
+.btn-p1{
+          width: 180px;
+          margin-left: 60px ;
+          margin-top: 5px;
+          background-color: white;
+          border: none;
+}
+.btn-p2{
+          width: 180px;
+          margin-left: 69px;
+          margin-top: 5px;
+          background-color: white;
+          border: none;
+}
+.btn-p3{
+          width: 180px; 
+          margin-left: 71px;
+          margin-top: 5px;
+          background-color: white;
+          border: none;
+}
+.btn-p4{
+          width: 180px;   
+          margin-left: 72px;
+          margin-top: 5px;
+          background-color: white;
+          border: none;
+}
+
+.btn{
+          margin-right: 100px;
+}
+/* play button style */
+.image-container {
+          position: relative;
+          display: inline-block; /* or "block" if you want it on a separate line */
+          margin-left: 615px;
+          margin-top: 10px;
+          
+      }
+      
+.play-button {
+          border: 10px; 
+          border-color: aliceblue;
+          border-radius: 100px;
+          background-color: #fdd0ec;
+          color: #F948B2;
+          font-size: xx-large;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          width: 50px;
+          transform: translate(-50%, -50%);
+          width: 60px; /* Adjust size as needed */
+          height: 60px;
+          background-image: url('../images/circle-play-regular\ \(1\).svg'); /* Replace with the path to your play button icon */
+          background-size: cover;
+          cursor: pointer;
+          /* Add any additional styles you want for the play button */
+}
+
+/* section point four releted */
+.point-four{
+          background: rgb(100, 138, 100);
+          width: 1885px;
+          height: 390px;
+}
+.watch{
+          margin-left: 615px;
+}
+.watch-btn{
+          width: 640px;
+          height: 35px;
+          background-color: #8ac4dd;
+          color: white;
+          font-family:monospace;
+          font-size: x-large;
+          border: none;
+}
+/* section point five related */
+.point-five{
+          display: flex;
+          width: 1885px;
+          height: 550px;
+          background-color: white;
+}
+
+.img-container {
+          position: relative;
+          display: inline-block; /* or "block" if you want it on a separate line */
+}
+  
+.back{
+          width: 450px;
+          height: 440px;
+          margin-left: 300px;
+          margin-top: 30px;
+}
+      
+.overlay {
+          height: 250px;
+          width: 200px;
+          position: absolute;
+          top: 280px; /* Adjust the vertical position */
+          left: 620px; /* Adjust the horizontal position */
+          /* Add any additional styles you want for the overlay image */
+}
+
+.five-text{
+          margin-left: 950px;
+          margin-bottom: 500px;
+}
+
+      
