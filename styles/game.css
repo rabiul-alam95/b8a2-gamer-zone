@@ -420,7 +420,15 @@ footer{
           margin-left: 668px;
 }
 .ft-btn{
+          border: none;
           background-color: black;
           color: white;
           margin-right: 10px;
+}
+.ft-btn:hover{
+          background-color: #F948B2;
+}
+.icon{
+          margin-left: 780px;
+          margin-top: 25px;
 }
